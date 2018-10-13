@@ -1,0 +1,28 @@
+{
+  "name": "popup-youtube",
+  "version": "0.0.1",
+  "description": "A desktop player for youtube",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingotaku/popup-youtube.git"
+  },
+  "keywords": [
+    "youtube",
+    "popup",
+    "video-player",
+    "youtube-api"
+  ],
+  "author": "codingotaku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingotaku/popup-youtube/issues"
+  },
+  "homepage": "https://github.com/codingotaku/popup-youtube#readme",
+  "devDependencies": {
+    "electron": "^3.0.4"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YouTube popup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+
+    <div id=titlebar>
+        <div id="title">
+            <label id="appname">Popup YouTube</label>
+        </div>
+        <div id=titleElements>
+            <div id="actionWrapper">
+                <label id="top">pin</label>
+                <label id="minimize">-</label>
+                <label id="maximize">⬜</label>
+                <label id="close">X</label>
+            </div>
+        </div>
+    </div>
+    <div class="second-row">
+        <iframe id='frame' frameborder="0" allowfullscreen>
+        </iframe>
+    </div>
+    <div id='container'>
+        <input type="text" id='url' placeholder="YouTube video/playlist URL">
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+input[type="text"] {
+  background-color: white;
+  background-position: 0.5em 0.5em;
+  background-repeat: no-repeat;
+  height: 3em;
+  border: none;
+}
+#container {
+  position: absolute;
+  margin-left: 25%;
+  top: 3.5em;
+  width: 50%;
+  height: 3em;
+}
+
+#titlebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2em;
+
+  flex: 0 1 auto;
+  width: 100%;
+  background-color: #323232;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  display: flex;
+  /* justify-content: space-around; */
+}
+#title {
+  padding-top: 0.35em;
+  padding-left: 0.35em;
+  float: left;
+  color: white;
+  width: 50%;
+}
+#titleElements {
+  float: right;
+  width: 50%;
+}
+#actionWrapper {
+  float: right;
+}
+#minimize {
+  padding-top: 0.35em;
+  width: 2em;
+  text-align: center;
+  border-color: #515151;
+  color: white;
+  display: inline-block;
+  -webkit-app-region: no-drag;
+}
+
+#minimize:hover,
+#minimize:active {
+  border: none;
+  background: blue;
+}
+
+#maximize {
+  padding-top: 0.35em;
+  width: 2em;
+  text-align: center;
+  border-color: #515151;
+  color: white;
+  display: inline-block;
+  -webkit-app-region: no-drag;
+}
+
+#maximize:hover,
+#maximize:active {
+  border: none;
+  background: green;
+}
+
+#close {
+  padding-top: 0.35em;
+  width: 2em;
+  text-align: center;
+  border-color: #515151;
+  color: white;
+  display: inline-block;
+  -webkit-app-region: no-drag;
+}
+#top {
+  padding-top: 0.35em;
+  width: 2em;
+  text-align: center;
+  color: white;
+  border-color: #515151;
+  display: inline-block;
+  -webkit-app-region: no-drag;
+}
+#close:hover,
+#close:active {
+  border: none;
+  background: red;
+}
+
+.second-row {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.second-row iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#frame {
+  position: absolute;
+  width: 100%;
+}
+input[type="text"]:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid red;
+}
+
+#url {
+  width: 100%;
+  background-image: url("../icons/link.png");
+  background-size: 2em 2em;
+}
+body {
+  background: #515151;
+}
